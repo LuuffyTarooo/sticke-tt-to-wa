@@ -1,0 +1,26 @@
+{
+  "name": "stiker-tiktok-to-whatsapp",
+  "version": "1.0.0",
+  "description": "TikTok Comment Sticker to WhatsApp Sticker Web Converter",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node tests/setup.test.js && node tests/image.test.js && node tests/exif.test.js && node tests/review-fixes.test.js && node tests/evil0ctal.test.js && node tests/apify.test.js && node tests/server.test.js && node tests/frontend.test.js && node tests/e2e.test.js"
+  },
+  "keywords": [
+    "tiktok",
+    "whatsapp",
+    "sticker",
+    "wasticker",
+    "webp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.21.0",
+    "express": "^4.21.2",
+    "playwright": "^1.50.0",
+    "sharp": "^0.33.5"
+  }
+}
